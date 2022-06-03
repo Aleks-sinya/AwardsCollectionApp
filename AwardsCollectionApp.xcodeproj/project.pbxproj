@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		A1F70AA0284A2D5F00899823 /* AwardsCollectionAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F70A9F284A2D5F00899823 /* AwardsCollectionAppApp.swift */; };
-		A1F70AA2284A2D5F00899823 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F70AA1284A2D5F00899823 /* ContentView.swift */; };
+		A1F70AA2284A2D5F00899823 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F70AA1284A2D5F00899823 /* StarterView.swift */; };
 		A1F70AA4284A2D6100899823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F70AA3284A2D6100899823 /* Assets.xcassets */; };
 		A1F70AA7284A2D6100899823 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F70AA6284A2D6100899823 /* Preview Assets.xcassets */; };
+		A1F70AAE284A2DDE00899823 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F70AAD284A2DDE00899823 /* MainView.swift */; };
+		A1F70AB1284A303900899823 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F70AB0284A303900899823 /* GradientRectangles.swift */; };
+		A1F70AB3284A31D100899823 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F70AB2284A31D100899823 /* PathView.swift */; };
+		A1F70AB5284A33B600899823 /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F70AB4284A33B600899823 /* CurvesView.swift */; };
+		A1F70AB7284A340A00899823 /* HypocycloidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F70AB6284A340A00899823 /* HypocycloidView.swift */; };
+		A1F70ABA284A346700899823 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F70AB9284A346700899823 /* Award.swift */; };
+		A1F70ABD284A349D00899823 /* CustomGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F70ABC284A349D00899823 /* CustomGridView.swift */; };
+		A1F70ABF284A34C100899823 /* VerticalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F70ABE284A34C100899823 /* VerticalGridView.swift */; };
+		A1F70AC1284A34D900899823 /* HorizontalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F70AC0284A34D900899823 /* HorizontalGridView.swift */; };
+		A1F70AC3284A350A00899823 /* CartRacingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F70AC2284A350A00899823 /* CartRacingView.swift */; };
+		A1F70AC5284A353200899823 /* AwardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F70AC4284A353200899823 /* AwardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A1F70A9C284A2D5F00899823 /* AwardsCollectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwardsCollectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F70A9F284A2D5F00899823 /* AwardsCollectionAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsCollectionAppApp.swift; sourceTree = "<group>"; };
-		A1F70AA1284A2D5F00899823 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1F70AA1284A2D5F00899823 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 		A1F70AA3284A2D6100899823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1F70AA6284A2D6100899823 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1F70AAD284A2DDE00899823 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A1F70AB0284A303900899823 /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
+		A1F70AB2284A31D100899823 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		A1F70AB4284A33B600899823 /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
+		A1F70AB6284A340A00899823 /* HypocycloidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypocycloidView.swift; sourceTree = "<group>"; };
+		A1F70AB9284A346700899823 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		A1F70ABC284A349D00899823 /* CustomGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridView.swift; sourceTree = "<group>"; };
+		A1F70ABE284A34C100899823 /* VerticalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalGridView.swift; sourceTree = "<group>"; };
+		A1F70AC0284A34D900899823 /* HorizontalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalGridView.swift; sourceTree = "<group>"; };
+		A1F70AC2284A350A00899823 /* CartRacingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRacingView.swift; sourceTree = "<group>"; };
+		A1F70AC4284A353200899823 /* AwardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +73,14 @@
 		A1F70A9E284A2D5F00899823 /* AwardsCollectionApp */ = {
 			isa = PBXGroup;
 			children = (
+				A1F70ABB284A349000899823 /* Grids */,
+				A1F70AB8284A345500899823 /* Models */,
+				A1F70AAF284A302100899823 /* Awards */,
 				A1F70A9F284A2D5F00899823 /* AwardsCollectionAppApp.swift */,
-				A1F70AA1284A2D5F00899823 /* ContentView.swift */,
+				A1F70AA1284A2D5F00899823 /* StarterView.swift */,
+				A1F70AC2284A350A00899823 /* CartRacingView.swift */,
+				A1F70AC4284A353200899823 /* AwardView.swift */,
+				A1F70AAD284A2DDE00899823 /* MainView.swift */,
 				A1F70AA3284A2D6100899823 /* Assets.xcassets */,
 				A1F70AA5284A2D6100899823 /* Preview Content */,
 			);
@@ -65,6 +93,35 @@
 				A1F70AA6284A2D6100899823 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1F70AAF284A302100899823 /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				A1F70AB0284A303900899823 /* GradientRectangles.swift */,
+				A1F70AB2284A31D100899823 /* PathView.swift */,
+				A1F70AB4284A33B600899823 /* CurvesView.swift */,
+				A1F70AB6284A340A00899823 /* HypocycloidView.swift */,
+			);
+			path = Awards;
+			sourceTree = "<group>";
+		};
+		A1F70AB8284A345500899823 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1F70AB9284A346700899823 /* Award.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1F70ABB284A349000899823 /* Grids */ = {
+			isa = PBXGroup;
+			children = (
+				A1F70ABC284A349D00899823 /* CustomGridView.swift */,
+				A1F70ABE284A34C100899823 /* VerticalGridView.swift */,
+				A1F70AC0284A34D900899823 /* HorizontalGridView.swift */,
+			);
+			path = Grids;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +194,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F70AA2284A2D5F00899823 /* ContentView.swift in Sources */,
+				A1F70ABD284A349D00899823 /* CustomGridView.swift in Sources */,
+				A1F70AB5284A33B600899823 /* CurvesView.swift in Sources */,
+				A1F70ABF284A34C100899823 /* VerticalGridView.swift in Sources */,
+				A1F70AB3284A31D100899823 /* PathView.swift in Sources */,
+				A1F70AC1284A34D900899823 /* HorizontalGridView.swift in Sources */,
+				A1F70AB7284A340A00899823 /* HypocycloidView.swift in Sources */,
+				A1F70AA2284A2D5F00899823 /* StarterView.swift in Sources */,
+				A1F70AB1284A303900899823 /* GradientRectangles.swift in Sources */,
+				A1F70AC3284A350A00899823 /* CartRacingView.swift in Sources */,
+				A1F70AC5284A353200899823 /* AwardView.swift in Sources */,
+				A1F70ABA284A346700899823 /* Award.swift in Sources */,
+				A1F70AAE284A2DDE00899823 /* MainView.swift in Sources */,
 				A1F70AA0284A2D5F00899823 /* AwardsCollectionAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
